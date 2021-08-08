@@ -83,7 +83,7 @@ via from django import form , form.is_valid() => convertir en objet python, mieu
 34. interface d'administration => powerful fort proprietaire and for user
 35. les decorateurs @admin.register(Album) pour ajouter des options et personnaliser l'interface d'administration de django
 http://www.formation-django.fr/framework-django/scaffolding/parametrage-avance-interface-admin.html
-36. python => import random, string => "".join([random.choice(string.printable) for _ in range(24)]) => '(\nyue9k8Hl-mg&<~QT%gyo*]'
+36. python => import random, string => "".join([random.choice(string.printable) for _ in range(24)]) => 
 37. pip install whitenoise and dj_database_url, gunicorn
 38. create dumps in apps for database => python manage.py dumpdata ecomapps > ecomapps\dumps\ecomapps.json
 39. create Procfile, requirement.txt and push on git puis heroku app
